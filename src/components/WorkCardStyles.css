@@ -1,0 +1,111 @@
+.project-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.sell{
+    display: flex;
+}
+
+.sold{
+    padding-left: 0.7rem ;
+    padding-top: 1.3rem;
+}
+
+.dis{
+    display: flex;
+}
+
+.discount{
+    padding-top: 1.3rem;
+    padding-left: 1rem;
+    color: red
+}
+
+.mrp{
+    padding-top: 1.3rem;
+    padding-left: 1rem; 
+}
+
+.dilev{
+    background-color: #000;
+}
+
+.project-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 5rem;
+}
+
+.project-card{
+    background: #1a1919;
+    padding: 1rem 0.8rem;
+}
+
+.project-card img{
+    width: 100%;
+}
+
+.project-title{
+    color: #fff;
+    padding: 1rem 0;
+    padding-bottom: 0;
+    text-align: left;
+}
+
+.pro-detail p{
+    padding-bottom: 0.8rem;
+    padding-left: 0.5rem;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.pro-detail h4{
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    background-color: #000;
+    background: transparent;
+}
+
+.pro-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0;
+    text-align: center;
+}
+
+.pro-btns .btn{
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.pri{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+    background-color: #000;
+    text-align: left;
+    color: #B0fc3b;
+}
+
+.btc{
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+
+
+
+
+@media screen and (max-width:740px) {
+    .project-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
