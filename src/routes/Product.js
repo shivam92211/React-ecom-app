@@ -12,7 +12,7 @@ const Product = () => {
       <Navbar />
       <HeroImg2 heading="PARALLETTES" text="The best quality with best price" />
       <Work/>
-      {/* <PricingCard/> */}
+      <PricingCard/>
       <Footer/>
     </div>
   )
