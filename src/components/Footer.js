@@ -2,7 +2,7 @@ import "./FooterStyles.css";
 
 import React from 'react';
 
-import { FaFacebook, FaHome, FaInstagram, FaMailBulk, FaPhone, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaHome, FaInstagram, FaMailBulk, FaPhone, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {

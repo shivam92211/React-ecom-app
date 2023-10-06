@@ -4,6 +4,8 @@ import Footer from "../components/Footer";
 import HeroImg2 from "../components/HeroImg2";
 import BlogCont from '../components2/BlogCont';
 import img5 from "../assets/img5.jpg";
+import img16 from "../assets/img16.jpg";
+import img17 from "../assets/img17.jpg";
 
 
 
@@ -11,7 +13,66 @@ const Blog = () => {
   return (
       <div>
         <Navbar />
-      <HeroImg2 heading="Our Blogs" text="Read the latast blogs on parallettes." />
+      <HeroImg2 heading="Our Blogs" text="Read the latest blogs on parallettes." />
+
+      <BlogCont
+        title="Parallettes at wholesale price in India"
+        author="Abhishek Mestry"
+        date="June 9, 2023"
+
+        
+
+        
+        content1="As we are parallettes manufacturing company our aim is to make high
+         quality Parallettes for our customer at reasonable price and deliver directly
+          to your door step.We make 3 range of parallettes and they are Medium size,
+           Jumbo size, Pro Parallettes"
+
+        content2="As we see in market the price of parallettes are very costly more than 
+        3k rupees. Because brands make from third party people, they charge high to them 
+        and brands charges high to us. But we brought a solution for it , at minifit.co started 
+        manufacturing Parallettes and it's our own manufacturing unit . So the prices of 
+        manufacturing boils down to very low and the Market price for our Parallettes becomes
+         very low."
+
+        content3="The material used in parallettes making is Pine wood , teak wood , beech 
+        wood, ash wood. In minifit.co we use pure premium pine wood which is strong and 
+        flexible. Due to which our Parallettes quality is best in market at best price"
+
+
+        imageUrl={img17}
+      
+      />
+
+      <BlogCont
+        title="Low price wooden Parallettes in India"
+        author="Abhishek Mestry"
+        date="June 3, 2023"
+
+        
+
+       
+        content1="Parallettes have wide range of application in Calisthenics and 
+        bodyweight training right from pushup to advance skills like planche , Maltese etc.
+         To perform all these elements we need huge ammount of strong base  which Parallettes
+          gives us . So Parallettes should made up of strong Materials. Where WOOD is one of
+           them. Wood have tendency to bear weight more than 200 kg depending upon its 
+           manufacturing and design."
+
+        content2="Our aim is to understand our customer needs and deliver what they want ,
+         so we made this range for our customer . As calisthenics is vast and day to day 
+         changing, Parallettes requirement is also ranging. Beginners needs and advance
+          athlete needs are changing day year day we made medium size parallettes for beginners 
+          and jumbo, pro Parallettes for advance athlete"
+
+        content3="Our Parallettes cost is at very reasonable price in whole Indian market 
+        of calisthenics. You can say we sell at wholesale price . Yes it is .  For our customer
+         convenience and satisfaction we deliver it for free at your doorstep."
+
+
+        imageUrl={img16}
+      
+      />
       
       <BlogCont
         title="Unleashing Strength and Stability: The Importance of Parallettes in Your Fitness Routine"
@@ -45,4 +106,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default Blog;

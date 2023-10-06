@@ -22,6 +22,7 @@ const Blog = ({ title, author, date, content1, content2, content3, content4,cont
         <br/>
         <p className="b-sub-head">{subhead2}</p>
         <p className="blog-content">{content2}</p>
+
         <br/>
         <p className="b-sub-head">{subhead3}</p>
         <p className="blog-content">{content3}</p>
